@@ -1,0 +1,7 @@
+@use '@/styles/variables' as *;
+
+.appShell {
+  min-height: 100vh;
+  background: $color-bg;
+  color: $color-text;
+}

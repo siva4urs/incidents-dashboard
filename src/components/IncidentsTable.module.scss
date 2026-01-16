@@ -1,0 +1,33 @@
+@use '@/styles/variables' as *;
+
+.wrapper {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+thead th {
+  background: $color-surface-2;
+  color: $color-muted;
+  font-weight: 600;
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid $color-border;
+}
+
+tbody td {
+  padding: 10px 12px;
+  border-bottom: 1px solid $color-border;
+}
+
+.iconCell {
+  width: 32px;
+}
+
+.row:hover {
+  background: $color-row-hover;
+}

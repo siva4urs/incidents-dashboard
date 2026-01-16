@@ -1,0 +1,19 @@
+@use './variables' as *;
+
+:root {
+  font-family: $font-family;
+  background: $color-bg;
+  color: $color-text;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
